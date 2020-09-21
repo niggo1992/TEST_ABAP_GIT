@@ -3,7 +3,7 @@ import jenkins.model.*
 def GITURL = 'https://github.com/niggo1992/TEST_ABAP_GIT.git'
 def BRANCH = 'master'
 def PIPELINE_GITURL = 'https://github.com/niggo1992/TEST_ABAP_GIT.git'
-def PACKAGE = '''$GIT'''
+def PACKAGE = '''$GIT_JENKINS_SHOWCASE'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
 
