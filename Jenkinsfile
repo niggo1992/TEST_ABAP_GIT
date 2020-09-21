@@ -10,9 +10,9 @@ def VARIANT = "DEFAULT"
 parallel (
     "NPL":{
         node {
-        	def LABEL = "PDA"
-        	def HOST = "vhostpda.awscloud.msg.de"
-        	def CREDENTIAL = "PDA"
+        	def LABEL = "PD1"
+        	def HOST = "vhostpd1.awscloud.msg.de"
+        	def CREDENTIAL = "PD1"
         	
         	git poll: true, branch: BRANCH, url: GITURL
         		
