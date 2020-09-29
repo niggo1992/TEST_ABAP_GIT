@@ -36,7 +36,7 @@ CLASS test IMPLEMENTATION.
 
     PERFORM minus_ten_percent CHANGING testprice.
 
-    cl_aunit_assert=>assert_equals( act = testprice exp = 170
+    cl_aunit_assert=>assert_equals( act = testprice exp = 180
 
                      msg = 'ninty percent not calculated correctly').
 
